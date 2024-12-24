@@ -1,0 +1,8 @@
+path: D:\SafeSchool\data\mock_attack_dataset
+train: train/images
+val: val/images
+nc: 3
+names:
+  0: Handgun
+  1: Knife
+  2: Short_rifle

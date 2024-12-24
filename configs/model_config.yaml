@@ -1,0 +1,18 @@
+model:
+  name: 'yolov8n'
+  classes: ['Handgun', 'Knife', 'Short_rifle']
+  confidence_threshold: 0.75
+  iou_threshold: 0.45
+
+data:
+  processed_dir: 'D:\SafeSchool\data\mock_attack_dataset'
+  img_size: 640
+  augmentation: true
+
+training:
+  batch_size: 8
+  epochs: 100
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  num_workers: 4
+  checkpoint_dir: 'checkpoints'
