@@ -290,7 +290,7 @@ def create_info_overlay(frame: np.ndarray, analysis_result: Dict[str, Any], weap
     return overlay
 
 
-def process_video(video_path: str, model_path: str = 'safeschool/train/weights/best.pt',
+def process_video(video_path: str, model_path: str = 'model/best.pt',
                   conf_threshold: float = 0.75):
     detector = WeaponDetector(model_path, conf_threshold)
     threat_analyzer = ThreatAnalyzer(api_key=os.getenv("OPENAI_API_KEY"))
