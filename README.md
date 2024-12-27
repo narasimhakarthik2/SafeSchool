@@ -151,7 +151,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 For questions or collaboration:
-[Your contact information]
+narasimhakarthik2@gmail.com
 
 ## Disclaimer
 This system is designed for research and security enhancement purposes only. Users are responsible for compliance with local regulations regarding surveillance and security systems.
