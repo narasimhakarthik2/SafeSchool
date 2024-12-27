@@ -1,0 +1,9 @@
+torch
+numpy
+albumentations
+pillow
+scikit-learn
+PyYAML
+ultralytics
+opencv-python
+langchain
